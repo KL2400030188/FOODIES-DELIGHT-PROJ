@@ -13,7 +13,7 @@ const recipes = [
             "Salt and pepper to taste"
         ],
         "instructions": [
-            "Boil pasta in water until al dente.",
+            "Boil pasta in water until it boils.",
             "Heat olive oil in a pan and add tomato sauce.",
             "Mix cooked pasta with the sauce.",
             "Top with grated cheese and serve hot."

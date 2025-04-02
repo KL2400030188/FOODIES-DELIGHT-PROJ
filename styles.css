@@ -10,6 +10,7 @@ body {
     background: #f8f8f8;
     color: #333;
     overflow-x: hidden;
+    background-color: rgb(245, 245, 209);
 }
 
 /* Ensure consistent box-sizing */
@@ -85,7 +86,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #ff5722;
+    background: #0f0f0e;
 }
 
 /* Recipe List */
@@ -319,4 +320,68 @@ h2 {
     font-size: 20px; /* Adjust heading size */
     color: #444; /* Set a consistent heading color */
     text-align: left; /* Align headings to the left */
+}
+
+/* Recipe Details Page Styling */
+.recipe-container {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 20px auto; /* Center the content horizontally */
+    background-color: #fff; /* Set a white background for contrast */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    text-align: left; /* Align text to the left */
+}
+
+.recipe-container img {
+    width: 70%; /* Reduce the width to 70% of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Keep the rounded corners */
+    margin-bottom: 20px; /* Add spacing below the image */
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+}
+
+.recipe-container h1, .recipe-container h2 {
+    color: #ff5722; /* Use a consistent theme color for headings */
+    margin-bottom: 15px; /* Add spacing below headings */
+}
+
+.recipe-container p {
+    font-size: 16px; /* Adjust font size for readability */
+    line-height: 1.6; /* Improve line spacing */
+    color: #555; /* Use a softer text color */
+}
+
+.recipe-container ul, .recipe-container ol {
+    margin-left: 20px; /* Add indentation for lists */
+    padding-left: 20px; /* Add padding for better alignment */
+    line-height: 1.6; /* Improve readability */
+}
+
+.recipe-container ul li, .recipe-container ol li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Use a consistent text color */
+}
+
+.recipe-container h2 {
+    margin-top: 30px; /* Add spacing above section headings */
+    font-size: 20px; /* Adjust heading size */
+}
+
+.contact-link {
+    display: inline-block;
+    margin-top: 20px; /* Add spacing above the link */
+    padding: 10px 20px; /* Add padding for better clickability */
+    background-color: #ff5722; /* Use a theme color */
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Round the corners */
+    transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+.contact-link:hover {
+    background-color: #e64a19; /* Darken the background on hover */
 }
