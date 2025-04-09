@@ -5,6 +5,7 @@ FOODIES DELIGHT is a beautifully crafted food recipe website where food lovers c
 📦 GitHub Repo: github.com/KL2400030188/FOODIES-DELIGHT-PROJ
 
 🎯 Features
+
 🗂️ Browse Recipes – Explore a variety of delicious and curated food recipes.
 
 📖 Detailed Recipe View – Get full cooking instructions, ingredients, and images.
@@ -12,6 +13,7 @@ FOODIES DELIGHT is a beautifully crafted food recipe website where food lovers c
 🌐 Responsive Design – Optimized for all screen sizes (mobile, tablet, desktop).
 
 🛠️ Tech Stack
+
 Frontend: HTML, JavaScript
 
 Styling: CSS
